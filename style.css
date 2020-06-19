@@ -19,9 +19,9 @@ a {
 
 /* Header style */
 header {
-	position: fixed;
-	top: 0;
-	left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,7 +37,7 @@ header {
 .footer-icon .fa-tree {
     padding-right: 15px;
     font-size: 32px;
-    color: rgb(179, 139, 11);
+    color: rgb(11, 179, 109);
 }
 
 h1 {
@@ -67,7 +67,7 @@ nav ul {
 }
 
 nav li {
-    padding: 10px 20px;
+    padding: 20px;
     transition: 0.5s;
 }
 
