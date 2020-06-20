@@ -85,7 +85,7 @@
     }
     .flower-list {
         flex-wrap: wrap;
-        justify-content: center;
+        margin: 0 auto 0 auto;
     }
     .species-list {
         width: 50%;
