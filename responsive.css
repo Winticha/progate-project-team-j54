@@ -84,12 +84,11 @@
         font-size: 16px;
     }
     .flower-list {
-        flex-wrap: nowrap;
         justify-content: center;
         margin: 0 auto 0 auto;
     }
     .species-list {
-        width: 50%;
+        width: 75%;
         margin: 0 10px 10px 10px;
     }
     .description {
