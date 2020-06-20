@@ -1,0 +1,139 @@
+@media (max-width: 1000px) {
+    /* species-wrapper */
+    .spc {
+        flex-direction: column;
+        height: max-content;
+    }
+    .heading {
+        width: 95%;
+        height: max-content;margin-bottom: 20px;
+        text-align: center;
+    }
+    .flower-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .species-list {
+        margin: 0 10px 0 10px;
+        width: 40%;
+    }
+    .pict > img {
+        width: 200px;
+    }
+    /* color-wrapper */
+    .clr {
+        height: max-content;
+    }
+
+    /* footer */
+    footer {
+        justify-content: space-between;
+    }
+    .footer-left {
+        width: max-content;
+    }
+    .list {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    /* header */
+    header {
+        flex-wrap: wrap;
+        padding: 0 10px;
+        height: 50px;
+    }
+    
+    h1,
+    .header-left .fa,
+    .footer-left .fa {
+        font-size: 24px;
+    }
+    nav {
+        display: none;
+    }
+    .header-right {
+        padding: 15px;
+    }
+    .login {
+        padding: 0 50px;
+        font-size: 14px;
+    }
+    .menu-icon {
+        font-size: 24px;
+        display: block;
+    }
+    /* top-wrapper */
+
+    /* species-wrapper */
+    .spc {
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .heading {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: max-content;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .flower-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .species-list {
+        width: 50%;
+        margin: 0 auto 10px auto;
+    }
+    .description {
+        display: none;
+    }
+
+    /* color-wrapper */
+    .color {
+        width: 100px;
+        height: 50px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    /* footer */
+    footer {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .footer-left {
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    .footer-left p {
+        font-size: 14px;
+    }
+    .footer-icon {
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+    .terms {
+        justify-content: center;
+        font-size: 12px;
+    }
+    .terms a {
+        padding: 0 10px;
+    }
+    .footer-right {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
